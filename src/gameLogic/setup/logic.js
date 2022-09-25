@@ -64,8 +64,13 @@ function pawnLogic(chess, chesses) {
             
             //if has another chess on your pawn way, delete it
             result[index]['isDeleted'] = true;
-            result[length - index - 1]['isDeleted'] = true;
-        }   
+
+            result.forEach((r, index)=>{
+                if(r.x === cpX + push && r.y === cpY) {
+                    result[index]['isDeleted'] = true;
+                }
+            })
+        }
     })
     return result;
 }
