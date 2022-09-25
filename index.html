@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chess board</title>
+</head>
+<body>
+    <div class="container">
+        <div id="gamePlay">
+            <!--White chess-->
+            <div class="draggable fill">
+                <div class="chess wrock"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wknight"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wbishop"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wking"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wqueen"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wbishop"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wknight"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wrock"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess wpawn"></div>
+            </div>
+
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <div class="draggable"><div class="dot"></div></div>
+            <!--Black chess-->
+            <div class="draggable fill">
+                <div class="chess brock"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bknight"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bbishop"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bking"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bqueen"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bbishop"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bknight"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess brock"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+            <div class="draggable fill">
+                <div class="chess bpawn"></div>
+            </div>
+        </div>
+        <div class="promotion">
+            <h2>PROMOTION</h2>
+            <div class="chesses">
+                <div class="promote"></div>
+                <div class="promote"></div>
+                <div class="promote"></div>
+                <div class="promote"></div>
+                <div class="promote"></div>
+            </div>
+        </div>
+        <div class="game-over">
+            <h3>WHITE CHESS WIN</h3>
+        </div>
+
+        <div class="gameInfo">
+            <h3>CHESS BOARD</h3>
+            <div class="turn white">
+                <h3>WHITE TURN</h3>
+            </div>
+            <div class="rule">
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./src/gameLogic/index.js"></script>
+</body>
+</html>
